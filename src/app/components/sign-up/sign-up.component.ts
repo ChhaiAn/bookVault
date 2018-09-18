@@ -7,7 +7,18 @@ import * as $ from "jquery";
   styleUrls: ["./sign-up.component.css"]
 })
 export class SignUpComponent implements OnInit {
-  constructor() {}
+  bodyContainer = {
+    'height': 'calc(100vh - 120px)'
+  }
+  formContainer = {
 
-  ngOnInit() {}
+    'max-width': '40em !important',
+    'display': 'flex',
+    'align-items': 'center'
+
+
+  }
+  constructor() { }
+
+  ngOnInit() { }
 }
