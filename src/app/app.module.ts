@@ -7,6 +7,8 @@ import { HeaderComponent } from "./components/header/header.component";
 import { SignUpComponent } from "./components/sign-up/sign-up.component";
 import { StudentComponent } from "./components/student/student.component";
 import { FooterComponent } from './components/footer/footer.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { RoutingModule } from './app/routing.module';
 
 @NgModule({
   declarations: [
@@ -14,9 +16,10 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     SignUpComponent,
     StudentComponent,
-    FooterComponent
+    FooterComponent,
+    SidebarComponent
   ],
-  imports: [BrowserModule, BsDatepickerModule.forRoot()],
+  imports: [BrowserModule, BsDatepickerModule.forRoot(), RoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
