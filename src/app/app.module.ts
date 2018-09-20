@@ -6,9 +6,11 @@ import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { SignUpComponent } from "./components/sign-up/sign-up.component";
 import { StudentComponent } from "./components/student/student.component";
-import { FooterComponent } from './components/footer/footer.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { RoutingModule } from './app/routing.module';
+import { FooterComponent } from "./components/footer/footer.component";
+import { SidebarComponent } from "./components/sidebar/sidebar.component";
+import { RoutingModule } from "./routing.module";
+import { HomeComponent } from './components/home/home.component';
+import { StudentDashboardComponent } from './components/student-dashboard/student-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { RoutingModule } from './app/routing.module';
     SignUpComponent,
     StudentComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    HomeComponent,
+    StudentDashboardComponent
   ],
   imports: [BrowserModule, BsDatepickerModule.forRoot(), RoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

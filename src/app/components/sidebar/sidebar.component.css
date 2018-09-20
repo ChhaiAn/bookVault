@@ -1,0 +1,22 @@
+.sidenav {
+  width: 200px;
+}
+
+.fa {
+  padding-right: 5px;
+}
+.user-image {
+  margin: 0 auto;
+  width: 35%;
+  height: 35%;
+  border-radius: 50% !important;
+  padding: 5px;
+}
+.user-detial {
+  font-size: 0.8em;
+  margin: 0;
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
