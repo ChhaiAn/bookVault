@@ -1,0 +1,14 @@
+.book-image {
+  width: 218px;
+  height: 300px;
+  padding: 0.5em;
+}
+.body-container{
+  height: calc(100vh - 140px);
+}
+
+@media only screen and (max-width: 768px) {
+  .body-container{
+   height: calc(100% - 140px);
+  }
+ }

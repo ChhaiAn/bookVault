@@ -11,6 +11,9 @@ import { SidebarComponent } from "./components/sidebar/sidebar.component";
 import { RoutingModule } from "./routing.module";
 import { HomeComponent } from './components/home/home.component';
 import { StudentDashboardComponent } from './components/student-dashboard/student-dashboard.component';
+import { StudentSearchBookComponent } from './components/student-search-book/student-search-book.component';
+import { AllClassesComponent } from './components/all-classes/all-classes.component';
+import { CartComponent } from './components/cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { StudentDashboardComponent } from './components/student-dashboard/studen
     FooterComponent,
     SidebarComponent,
     HomeComponent,
-    StudentDashboardComponent
+    StudentDashboardComponent,
+    StudentSearchBookComponent,
+    AllClassesComponent,
+    CartComponent
   ],
   imports: [BrowserModule, BsDatepickerModule.forRoot(), RoutingModule],
   providers: [],

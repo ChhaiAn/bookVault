@@ -3,3 +3,9 @@
   height: 100%;
   padding: 0.5em;
 }
+
+@media only screen and (min-width: 768px) {
+  .full-width {
+    width: 100% !important;
+  }
+ }
