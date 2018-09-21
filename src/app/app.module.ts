@@ -14,6 +14,7 @@ import { StudentDashboardComponent } from './components/student-dashboard/studen
 import { StudentSearchBookComponent } from './components/student-search-book/student-search-book.component';
 import { AllClassesComponent } from './components/all-classes/all-classes.component';
 import { CartComponent } from './components/cart/cart.component';
+import { ReactiveFormsModule, FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { CartComponent } from './components/cart/cart.component';
     AllClassesComponent,
     CartComponent
   ],
-  imports: [BrowserModule, BsDatepickerModule.forRoot(), RoutingModule],
+  imports: [BrowserModule, BsDatepickerModule.forRoot(), RoutingModule, ReactiveFormsModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

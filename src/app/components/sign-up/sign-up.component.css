@@ -1,0 +1,19 @@
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+input.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+select.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+select.ng-valid.ng-touched {
+  border: 1px solid green;
+}
+
+#inputMiddleName.ng-valid.ng-touched{
+  border: 1px solid #CED4DA;
+}
+.card-body{
+  padding-bottom: 0;
+}
