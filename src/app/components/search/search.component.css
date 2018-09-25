@@ -1,0 +1,9 @@
+p {
+  margin: 0;
+}
+
+.book-image {
+  width: 75%;
+  height: 75%;
+  padding: 0.5em;
+}
